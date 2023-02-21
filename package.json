@@ -1,0 +1,24 @@
+{
+  "name": "mongotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhnnhob/MongoTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhnnhob/MongoTest/issues"
+  },
+  "homepage": "https://github.com/minhnnhob/MongoTest#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongodb": "^5.0.1"
+  }
+}
