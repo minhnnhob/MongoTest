@@ -10,7 +10,13 @@
     <h1>Hello bruhh
     </h1>
     {{#each products}}
-        {{this.name}}-{{this.country}}
+    <li>
+            {{this.name}}-{{this.price}}
+        <img src="{{this.picURL}}" alt="" width="120px" height="120px">
+        <a href="/delete/{{_id}}">delete</a>
+    </li>
+        
     {{/each}}
+    <a href="/add">Add products</a>
 </body>
 </html>
