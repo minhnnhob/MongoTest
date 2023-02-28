@@ -13,7 +13,8 @@
     <li>
             {{this.name}}-{{this.price}}
         <img src="{{this.picURL}}" alt="" width="120px" height="120px">
-        <a href="/delete/{{_id}}">delete</a>
+        <a href="/delete/{{_id}}" onclick="return confirm('may chac chua')">delete</a>
+        <a href="/edit/{{_id}}" onclick="return confirm('may chac chua')">Edit</a>
     </li>
         
     {{/each}}
